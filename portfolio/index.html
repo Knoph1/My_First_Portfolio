@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Knoph Ayieko - Portfolio</title>
+  <title>Knoph Ayieko - Personal Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
@@ -37,6 +37,12 @@
     section {
       margin-bottom: 30px;
     }
+    article.project {
+      background: #f4f4f4;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-left: 5px solid #005599;
+    }
     footer {
       background-color: #003366;
       color: white;
@@ -56,30 +62,53 @@
   </header>
 
   <nav>
-    <a href="#">Home</a>
-    <a href="about.html">About</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
-    <a href="blog.html">Blog</a>
+    <a href="#introduction">Introduction</a>
+    <a href="#projects">Projects</a>
+    <a href="#about">About Me</a>
+    <a href="#contact">Contact</a>
   </nav>
 
   <main>
     <section id="introduction">
-      <h2>Welcome to My Portfolio</h2>
+      <h2>Introduction</h2>
       <p>I'm a passionate and multifaceted IT professional with skills in Web Development, Research, Virtual Assistance and more. Explore my work, learn about my journey and connect with me.</p>
     </section>
 
-    <section id="featured-projects">
-      <h2>Featured Projects</h2>
-      <ul>
-        <li><strong>Ashker Credit Solution MVP</strong> – A custom-built credit and savings platform for an Ethiopian startup.</li>
-        <li><strong>Personal Portfolio</strong> – This responsive and accessible portfolio site built with HTML and CSS.</li>
-      </ul>
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <article class="project">
+        <h3>Ashker Credit Solution MVP</h3>
+        <p>A custom-built credit and savings platform for an Ethiopian startup.</p>
+        <a href="https://github.com/Knoph1" target="_blank">View Project</a>
+      </article>
+
+      <article class="project">
+        <h3>Personal Portfolio Website</h3>
+        <p>This responsive and accessible personal portfolio site built using semantic HTML and custom CSS.</p>
+        <a href="https://github.com/Knoph1/My_First_Portfolio" target="_blank">View Project</a>
+      </article>
+
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>My name is Knoph Ayieko. I hold a BSc. in Information Technology and have trained in Backend and Frontend Web Development. I’m a creative thinker and researcher with a passion for education, project development and software solutions. I value integrity, growth and service to humanity.</p>
+      <p>Skills include: Web Development (HTML, CSS, JavaScript, Python), Technical Support, Research, Virtual Assistance and IT Consultancy.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>You can reach me at: <a href="mailto:knophayieko@gmail.com">knophayieko@gmail.com</a></p>
+      <p>
+        <a href="https://github.com/Knoph1" target="_blank">GitHub</a> |
+        <a href="https://linkedin.com/in/knoph-ayieko" target="_blank">LinkedIn</a>
+      </p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Knoph Ayieko. All rights reserved.</p>
+    <p>&copy; 2025 Knoph Ayieko. | All rights reserved.</p>
   </footer>
 
 </body>
