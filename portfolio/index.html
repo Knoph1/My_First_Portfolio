@@ -1,115 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Knoph Ayieko - Personal Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-    }
-    header {
-      background-color: #003366;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    nav {
-      background: #005599;
-      display: flex;
-      justify-content: center;
-    }
-    nav a {
-      color: white;
-      padding: 14px 20px;
-      display: inline-block;
-      text-decoration: none;
-    }
-    nav a:hover {
-      background-color: #002244;
-    }
-    main {
-      padding: 20px;
-    }
-    section {
-      margin-bottom: 30px;
-    }
-    article.project {
-      background: #f4f4f4;
-      padding: 10px;
-      margin-bottom: 10px;
-      border-left: 5px solid #005599;
-    }
-    footer {
-      background-color: #003366;
-      color: white;
-      text-align: center;
-      padding: 10px;
-      position: relative;
-      bottom: 0;
-      width: 100%;
-    }
-  </style>
+    <meta charset="utf-8">
+    <title>My First Webpage</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tweets.html">Tweets</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <header>
-    <h1>Knoph Ayieko</h1>
-    <p>Web Developer | Researcher | IT Specialist</p>
-  </header>
+    <main>
+        <article>
+            <h1>Welcome to My Website</h1>
 
-  <nav>
-    <a href="#introduction">Introduction</a>
-    <a href="#projects">Projects</a>
-    <a href="#about">About Me</a>
-    <a href="#contact">Contact</a>
-  </nav>
+            <section>
+                <h2>Introduction</h2>
+                <p>This is my first webpage using basic HTML. I'm learning how to structure a website using semantic tags.</p>
 
-  <main>
-    <section id="introduction">
-      <h2>Introduction</h2>
-      <p>I'm a passionate and multifaceted IT professional with skills in Web Development, Research, Virtual Assistance and more. Explore my work, learn about my journey and connect with me.</p>
-    </section>
+                <h3>More Content</h3>
+                <p>More content...</p>
+                <p>More content...</p>
 
-    <section id="projects">
-      <h2>Projects</h2>
+                <p>Want to see my latest thoughts? <a href="tweets.html">Check out my Tweets!</a></p>
+            </section>
 
-      <article class="project">
-        <h3>Ashker Credit Solution MVP</h3>
-        <p>A custom-built credit and savings platform for an Ethiopian startup.</p>
-        <a href="https://github.com/Knoph1" target="_blank">View Project</a>
-      </article>
+            <!-- Learners Table Section -->
+            <section>
+                <h2>Table of Learners</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Country</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John</td>
+                            <td>25</td>
+                            <td>USA</td>
+                        </tr>
+                        <tr>
+                            <td>Emily</td>
+                            <td>28</td>
+                            <td>Canada</td>
+                        </tr>
+                        <tr>
+                            <td>Michael</td>
+                            <td>32</td>
+                            <td>Australia</td>
+                        </tr>
+                        <tr>
+                            <td>Sophia</td>
+                            <td>21</td>
+                            <td>UK</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </article>
 
-      <article class="project">
-        <h3>Personal Portfolio Website</h3>
-        <p>This responsive and accessible personal portfolio site built using semantic HTML and custom CSS.</p>
-        <a href="https://github.com/Knoph1/My_First_Portfolio" target="_blank">View Project</a>
-      </article>
+        <aside>
+            <p>placeholder to add comment thread later</p>
+        </aside>
+    </main>
 
-    </section>
-
-    <section id="about">
-      <h2>About Me</h2>
-      <p>My name is Knoph Ayieko. I hold a BSc. in Information Technology and have trained in Backend and Frontend Web Development. I’m a creative thinker and researcher with a passion for education, project development and software solutions. I value integrity, growth and service to humanity.</p>
-      <p>Skills include: Web Development (HTML, CSS, JavaScript, Python), Technical Support, Research, Virtual Assistance and IT Consultancy.</p>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>You can reach me at: <a href="mailto:knophayieko@gmail.com">knophayieko@gmail.com</a></p>
-      <p>
-        <a href="https://github.com/Knoph1" target="_blank">GitHub</a> |
-        <a href="https://linkedin.com/in/knoph-ayieko" target="_blank">LinkedIn</a>
-      </p>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Knoph Ayieko. All rights reserved.</p>
-  </footer>
-
+    <footer>
+        <p>Made by Knoph Ayieko - <a href="https://github.com/Knoph1/My_First_Portfolio.git" target="_blank">here</a>.</p>
+    </footer>
 </body>
 </html>
