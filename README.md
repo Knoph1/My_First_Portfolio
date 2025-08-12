@@ -1,14 +1,3 @@
-# adsfbg
-
-## dfg
-
-df
-
-ff
-
-
-f
-
 # My_First_Portfolio
 
 ---
@@ -53,5 +42,3 @@ This contains a sample personal portfolio:
 ---
 
 <p>&copy; 2025 ALX Afrca - Knoph Ayieko. | All rights reserved.</p>
-
-f
