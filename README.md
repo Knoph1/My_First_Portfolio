@@ -1,19 +1,20 @@
 # My_First_Portfolio
 
-Courtesy of ALX Africa.
-
 ---
 
 ## 📁 Project Structure
 
 ```bash
 My_First_Portfolio/
-├── README.md           # Project documentation
+├── .vscode             # IDE default set-up file
+│   ├── settings.json
 ├── html_basic/
 │   ├── base_index.html
 │   └── index.html
+│   └── tweets.html
 └── portfolio/
-    └── index.html      # Home page
+|   └── index.html      # Home page
+└── README.md           # Project documentation
 ```
 
 - Ideal sample Project Structure
@@ -53,5 +54,3 @@ This contains a sample personal portfolio:
 ---
 
 <p>&copy; 2025 ALX Afrca - Knoph Ayieko. | All rights reserved.</p>
-
----
