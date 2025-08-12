@@ -58,6 +58,6 @@ This contains a sample personal portfolio:
 
 ---
 
-<p>&copy; 2025 Knoph Ayieko. | All rights reserved.</p>
+<p>&copy; 2025 ALX Afrca - Knoph Ayieko. | All rights reserved.</p>
 
 ---
