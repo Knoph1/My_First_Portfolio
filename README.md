@@ -6,8 +6,7 @@ Courtesy of ALX Africa.
 
 ## 🌐 Live Preview
 
-> *(Optional link if hosted)*  
-[View Live Site](https://your-username.github.io/portfolio/)
+> *(Optional link if hosted)*  [View Live Site](https://your-username.github.io/portfolio/)
 
 ---
 
