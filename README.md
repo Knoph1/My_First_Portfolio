@@ -17,18 +17,6 @@ My_First_Portfolio/
 └── README.md           # Project documentation
 ```
 
-- Ideal sample Project Structure
-```bash
-Home/Root_Directory/
-├── index.html         
-├── about.html         # About Me section
-├── projects.html      # Showcases work and contributions
-├── contact.html       # Contact form and info
-├── blog.html          # Optional blog section
-├── style.css          # Stylesheet (if externalized)
-└── README.md
-```
-
 ---
 
 ## 📂 Directories Explained
