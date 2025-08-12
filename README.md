@@ -1,6 +1,6 @@
 # Knoph Oluoch Ayieko - Portfolio Website
 
-Welcome to my personal **portfolio website**, built with fundamental HTML and CSS. This project showcases my professional background, technical projects, and provides a platform for contact and networking.
+Courtesy of ALX Africa.
 
 ---
 
